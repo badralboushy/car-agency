@@ -1,0 +1,80 @@
+ <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+
+<div id = "sale" >
+    <table id="car_table">
+            <tr>
+                <th>Car Id</th> 
+                <th>Manufacturer</th> 
+                <th>Status</th> 
+                <th>Name</th> 
+                <th>Color</th> 
+                <th>Price</th> 
+                <th>Engine</th>
+                <th>Tank Size</th> 
+                <th>Date Of Manufacture</th> 
+                <th>Date Of Registration</th>     
+            </tr>
+            {{#each cars}}
+            <tr>
+                <form id="test_form" method="post" action="/salesman/view/getCarId">
+                <td class="id_row"><input type="text" id="id_text" name="id_text" value={{this.CAR_ID}} readonly> </td>
+                <td>{{this.MANUFACTURER}}</td>
+                {{#if this.STATUS}}
+                <td>New</td>
+                {{else}}
+                <td>Used</td>
+                {{/if}}
+                <td>{{this.NAME}}</td>
+                <td>{{this.COLOR}}</td>
+                <td>{{this.PRICE }}</td>
+                <td>{{this.ENGINE}}</td>
+                <td>{{this.TANK_SIZE}}</td> 
+                <td>{{this.DATE_OF_MANUFACTURE}}</td> 
+                <td>{{this.REGISTRATION_DATE}}</td> 
+                <td><input type="submit" class="submit_button" name="test" value= "sell" ></td>
+                </form>
+                
+            </tr>
+            {{/each}}
+    </table>
+    
+    <div class="sale_info">
+        <form id="client_info" method="post" action="/salesman/view/addClient">
+            <label>Client Info:</label>
+            <input id="client_name" name="client_name" type="text" placeholder="Enter Client Name" required>
+            <input id="client_address" name="client_address" type="text" placeholder="Enter Client Address" required>
+            <input id="client_phone" name="client_phone" type="text" placeholder="Enter Client Phone number" required>
+            <input id="client_job" name="client_job" type="text" placeholder="Enter Client Job Title" required>
+            <input id="client_num" name="client_num" type="text" placeholder="Enter Client National Number" required>
+            <input type="submit" class="submit_button" name="submit_client" value="Ok">
+        </form>
+        <span id="has_discount"></span>
+        <form id="payment_form"></form>
+        <span id="payment_choose">Choose your payment method</span><br>
+        
+            <label for="installement" >installement</label> 
+            <input type="radio" id="installement_radio" name="payment" value="installement" >
+            <label for="cash" >cash</label> 
+            <input type="radio" id="cash_radio" name="payment" value="cash"><br>
+            <label class="installement">Installement Info:</label>
+            <input type="text" class="installement" name="first_payment">
+            <input type="text" class="installement" name="payment_period">
+            <input type="submit" class="installement" name="installement_submit">
+        </form>
+    </div>
+
+</div>
+
+<div id="payment_div">
+    
+    <form id="installement_payment_form" method="post" action="/salesman/view/addPayment" >
+    <label>Make new payment</label>
+        <input type="text" id="payer_id" name="contract_id" placeholder="enter contract id" required > 
+        <input type="text" id="amount" name="amount" placeholder="enter payment amount" required >
+        <input type="submit" class="submit_button" name="payment_submit" placeholder="enter amount">  
+    </form>
+
+</div>
+<script> 
+    $('#car_table').DataTable();
+</script>

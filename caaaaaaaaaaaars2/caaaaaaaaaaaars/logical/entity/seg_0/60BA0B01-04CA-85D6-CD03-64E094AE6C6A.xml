@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60BA0B01-04CA-85D6-CD03-64E094AE6C6A" name="pyment">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:26:24 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="amount" id="C201BFA2-31E0-43C6-831F-7B3D3286FE3B">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:27:10 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contract_ID" id="C514A7EA-EFF5-9779-2B12-70A32ACB83E3">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:33:03 UTC</createdTime>
+<generatorID>5952EA40-A1D4-554B-557D-792FECD37656</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<referedAttribute>F246088A-2A38-310C-FF48-EF952CA05473</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_iD" id="1D6B377B-E654-F252-6861-9F0FB6036D69">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:33:18 UTC</createdTime>
+<generatorID>2442A3F2-64E3-4523-2494-6B14391FA534</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<referedAttribute>906C86BE-7D69-9125-4A5A-62633188D775</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8458C75F-669B-D42A-DA79-BD6011317F6E" name="pyment PK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:32:46 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C514A7EA-EFF5-9779-2B12-70A32ACB83E3</attributeRef>
+<attributeRef>1D6B377B-E654-F252-6861-9F0FB6036D69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

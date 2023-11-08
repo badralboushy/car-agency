@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1A4FCA0-541D-A3F9-6479-987F74926636" name="constants">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>D3ACCD89-44D5-CBE7-19E4-8037E94C062D</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="number_of_sales" id="C1A101C4-0883-349A-B4BA-5961A83C4DDA">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>63993B94-1FD4-71BA-2725-C231AD1C5801</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discount" id="776F2BB6-7976-7018-D1B0-E6359743C00D">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>2B9E8491-FE0B-D714-BCC8-8CFDEA018949</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_installment_period" id="E39A9D8A-B34E-F1AF-B80F-4EC40C8CA58E">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>8895CC8F-1E78-E450-3772-540338357444</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="min_first_payment" id="1AC64F8F-033F-E995-3B06-982B753FB641">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>9A236E83-C41E-5B52-4862-007F7CAA9BCE</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="benifit" id="6B21B3C5-5657-8AD5-0D1E-02971C3662D3">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>FA27B7E7-31C7-3760-DB41-1142A7B3460C</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="available_payment_period" id="F1042CA1-CA50-B7EA-FEC2-C99D3DCBCED0">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>983985F8-A147-63F6-1DBF-5050B3E8BAF7</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fine" id="E9A4AE91-7606-D23D-BB93-CD915032DD34">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>5EC794D3-6BC7-3218-1FF1-FE7534E68A27</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acceptable_late_period" id="12D26281-4574-EE08-3591-AC637B2E019F">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>DFB141B1-B927-790E-BDBA-B4867622E124</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="constant_ID" id="B655F44D-6F17-6C82-EA28-2CEE8E888CB8">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>ABC6CB94-68A4-7D45-2339-0AB12FB25632</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active" id="23B409DE-4F79-3E82-B93C-72B065ED87EF">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>148CC127-43E6-DC51-5F6D-10DEE899DBB0</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="min_price" id="2E51C509-4CA6-A758-8D8E-F8C9DBE615B3">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-30 19:46:44 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comession_one" id="5633EAE0-3380-4335-97FF-00A37A34E38C">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-30 19:46:44 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_price" id="40283C0D-DB87-CB14-986C-1D50CB458FAF">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-30 19:46:44 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comesion_two" id="18D890A0-022A-64E2-5391-BEEF9EE946F7">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-30 19:46:44 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comession_three" id="4A92F888-D277-40F4-3762-E48028795C65">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-30 19:46:44 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="90288488-B1D2-BB0A-B2D9-6897E6E2DA89">
+<createdBy>Badr</createdBy>
+<createdTime>2021-06-09 18:26:16 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E72FD771-F966-C5F2-9279-9D0CD0552384" name="constants_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>8D898936-B308-B750-C46A-6C7F611059D8</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B655F44D-6F17-6C82-EA28-2CEE8E888CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

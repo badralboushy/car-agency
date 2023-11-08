@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2609FEF-193E-7472-65DC-7C8C4BC7C754" name="car">
+<createdBy>Admin</createdBy>
+<createdTime>2021-04-25 20:33:15 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Car_ID" id="56606584-56A6-4AA0-42B1-C280488926CA">
+<createdBy>Admin</createdBy>
+<createdTime>2021-04-25 20:33:29 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manufacturer" id="85B13372-75A7-84F1-FC43-A5C056DC2635">
+<createdBy>Admin</createdBy>
+<createdTime>2021-04-25 20:34:42 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="EE4F15A1-8F6E-2914-64FA-FECF29EE15F9">
+<createdBy>Admin</createdBy>
+<createdTime>2021-04-25 20:36:12 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="FFA9D145-A0AE-D207-9576-77A5E5FF2649">
+<createdBy>Admin</createdBy>
+<createdTime>2021-04-25 20:36:59 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="254628E4-D3EF-924E-7D9B-62450E9E26BF">
+<createdBy>Admin</createdBy>
+<createdTime>2021-04-25 20:38:14 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="855EE186-2BD5-F39D-F4AB-C5AF67FC0D7D">
+<createdBy>Admin</createdBy>
+<createdTime>2021-04-25 20:38:58 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ready" id="023C386C-1862-410E-6B66-6AD383B5FF4E">
+<createdBy>Admin</createdBy>
+<createdTime>2021-04-25 20:40:54 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="engine" id="58231B56-4968-EB3A-C74E-426CADA68C14">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 21:46:44 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tank_size" id="20D60DC7-03AD-5CF3-8DD1-7F72B7B10457">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 21:47:10 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_of_manufacture" id="4C43EF8F-F121-3E6B-5156-9A17DE492703">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 21:48:55 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registration_date" id="36381F95-31C6-3273-E028-51E911D49CF4">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 21:49:38 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0200043A-6F3F-0C08-5557-9BCF404CDA9C" name="car PK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-04-25 20:34:31 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BCC8D6FD-89BC-EE62-DED1-408604B1D563" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56606584-56A6-4AA0-42B1-C280488926CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

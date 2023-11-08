@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        {{! https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css
+https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css }}
+
+        {{! https://code.jquery.com/jquery-3.5.1.js
+https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js
+https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js }}
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ></script>
+
+        {{! javascript for datatables in bootsrap }}
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script
+            src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"
+        ></script>
+        <script
+            src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"
+        ></script>
+        <title>{{title}}</title>
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-light" style="background-color: #1d9663;">
+            <div class="main">
+                <img class="logo" />
+            </div>
+            <div class="toggle">
+                <span id="new_sale"> new sale</span>
+                <span id="new_sale"> payment</span>
+            </div>
+
+        </nav>
+        {{{body}}}
+    </body>
+    <script
+        src="https://unpkg.com/browse/axios@0.2.1/dist/axios.min.js"
+    ></script>
+</html>

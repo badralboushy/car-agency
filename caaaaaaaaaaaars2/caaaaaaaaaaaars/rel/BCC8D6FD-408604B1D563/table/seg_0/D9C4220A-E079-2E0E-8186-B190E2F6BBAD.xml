@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9C4220A-E079-2E0E-8186-B190E2F6BBAD" name="installement_payment">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>262A5799-B694-2FC0-0BDF-017F3D831D6D</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="first_payment" id="0E1ADA24-1FDE-4836-9CF2-E6E91BD2A6EA">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>C724FDD3-8ED9-9F85-683E-5E248D242A79</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="period_of_payment" id="8D07B60E-3A67-E302-59D5-EC6D2724C0DA">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>ED347C54-9FC9-2C20-6614-2F4E0A840526</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="suspended" id="E6BD92EF-A29A-52CF-5799-243A380375CB">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>F20CE3D0-9EE0-9820-9A77-4507E6C26335</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paid_months" id="F31D2600-A04A-1FB5-8320-4380489E91E2">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>70944D50-49FC-50D2-EF49-85C371EE7628</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contract_Contract_ID" id="838545A3-E87B-0070-ADDE-D385C540B030">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>F246088A-2A38-310C-FF48-EF952CA05473</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C8C024C-C627-8BDE-9AB2-8A91E9E5DF0A" referredColumn="18D7E103-5DFF-C308-EE51-56F3F463D416"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98279E97-2F97-2D75-38E0-A1971A25BCE5" name="installement_payment_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>2BA3F02A-7D3A-D3C1-430F-E968239E4DBA</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="838545A3-E87B-0070-ADDE-D385C540B030"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CC29E5F-75BA-D1F6-0F6C-455074A86E61" name="installement_Contract_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>27FE8CE9-C156-973D-7841-FF76DA8BCB41</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="838545A3-E87B-0070-ADDE-D385C540B030"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

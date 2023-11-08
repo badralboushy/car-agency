@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96338499-BDEF-9FC1-4C2B-CDAB6524E1C6" name="pyment">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>60BA0B01-04CA-85D6-CD03-64E094AE6C6A</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="amount" id="F8CC73FF-A223-2386-FBA4-E9756687FF46">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>C201BFA2-31E0-43C6-831F-7B3D3286FE3B</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="installement_Contract_ID" id="9A50F22E-6F9D-6C13-83FE-02B8B52A81A7">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>C514A7EA-EFF5-9779-2B12-70A32ACB83E3</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EA75844-AC63-8A0B-1608-8B7FAF82E6EA" referredColumn="838545A3-E87B-0070-ADDE-D385C540B030"/>
+</associations>
+</Column>
+<Column name="Date_date" id="36F119ED-7DE5-F2DD-3C72-B70022E35CDA">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>1D6B377B-E654-F252-6861-9F0FB6036D69</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_ID" id="DA687F80-0385-4003-8607-956D9B498BBD">
+<createdBy>Badr</createdBy>
+<createdTime>2021-07-02 18:47:02 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="812E9430-58F5-C93A-32CD-A362C074C4FA" name="pyment_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>8458C75F-669B-D42A-DA79-BD6011317F6E</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA687F80-0385-4003-8607-956D9B498BBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63E63B81-B893-93F5-F8D9-E95A138F6B63" name="installement_pay_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>5952EA40-A1D4-554B-557D-792FECD37656</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A50F22E-6F9D-6C13-83FE-02B8B52A81A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

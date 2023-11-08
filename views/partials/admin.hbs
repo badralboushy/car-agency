@@ -1,0 +1,120 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <div class = "container mb-3 mt-3">
+
+     <table id="employeesDataTable" class="table table-striped table-bordered" style="width:100%">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th> 
+                <th>Role</th>
+                <th>Permission Id</th>  
+                <th>Change Password</th>
+                <th>Delete Account</th>
+                
+            </tr>
+
+
+                </thead>
+       <tbody>
+             {{#each employees}}
+            <tr>
+                    <td>{{ID}}</td>
+                    <td>{{NAME}}</td>
+                    <td>{{EMAIL}}</td>
+                    <td>{{ROLE}}</td>
+                    <td>{{PERMISSION_ID}}</td>
+                     <td><button>Change Password</button></td>
+                    <td><button>Delete</button></td>
+                   
+
+            </tr>
+            {{/each}}
+       </tbody>
+       <tfoot>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th> 
+                <th>Role</th>
+                <th>Permission Id</th>  
+                <th>Change Password</th>
+                <th>Delete Account</th>
+                
+            </tr>
+       </tfoot>
+           
+        </div>        
+
+        <h2>
+            change password
+        </h2>
+        <div>
+            {{!-- <form method="POST" action="/admin/view/updatePassword">
+                <label >Enter ID</label>
+                <br><input type="text" name="ID" ><br>
+                <label >Enter new password :</label>
+                <br>
+                <input type="password" name="PASSWORD">
+                <br>
+                <br>
+                <input type="submit">
+             
+                
+            </form> --}}
+            <h2>creat new Employee Account</h2>
+
+                    <br>
+                    <label >name</label>
+                    <br><input type="text" id="NAME"><br>
+                     <label >Email</label>
+                    <br><input type="text" id="EMAIL"><br>
+                     <label >password</label>
+                   <br><input type="text" id ="PASSWORD"><br>
+                     <label >salary</label>
+                    <br><input type="text" id="SALARY" ><br>
+                     <label >role</label>
+                    <br><input type="text" id="ROLE"><br>
+                     <label >Permission_id</label>
+                   <br><input type="text" id="PERMISSION_ID"><br>
+                     
+                    <button id="addEmployee">Add Account</button>
+            <br>
+            <br>
+            <br>
+
+        </div>
+    </body>
+    <script>
+          $('#employeesDataTable').DataTable();
+           $("#addEmployee").on("click", function (e) {
+        e.preventDefault();
+        alert("Add employee");
+        alert($("#NAME").val());
+        axios.post("http://localhost:3001/employee/add" , { NAME: $("#NAME").val(),
+                EMAIL: $("#EMAIL").val(),
+                PASSWORD: $("#PASSWORD").val(),
+                SALARY: $("#SALARY").val(),
+                ROLE: $("#ROLE").val(),
+                PERMISSION_ID: $("#PERMISSION_ID").val(),
+            }).then((resp) => {
+       
+                    console.log(resp);
+                },
+                (error) => {
+                    alert(error);
+                    console.log(error);
+                }
+            );
+            location.reload();
+    });
+    
+    </script>
+</html>

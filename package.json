@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "axios": "^0.21.1",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "hbs": "^4.1.2",
+        "jquery": "^3.6.0",
+        "jsdom": "^16.6.0",
+        "oracledb": "^5.2.0"
+    },
+    "scripts": {
+        "start": "nodemon index"
+    },
+    "author": {
+        "name": "badr"
+    }
+}

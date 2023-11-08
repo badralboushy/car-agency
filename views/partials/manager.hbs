@@ -1,0 +1,145 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{title}}</title>
+    </head>
+    {{! placeholder="change the number of sales till client take a discount" }}
+
+    <body>
+        <h3>Edit Constants:</h3>
+        {{#each constants}}
+
+            <form method="post" action="/manager/view/addconstants">
+                <label>change the number of sales till client take a discount</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the number of sales till client take a discount"
+                    value="{{NUMBER_OF_SALES}}"
+                    name="NUMBER_OF_SALES"
+                />
+                <br />
+                <label>change how much a discount would be for client</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change how much a discount would be for client"
+                    value="{{DISCOUNT}}"
+                    name="DISCOUNT"
+                />
+                <br />
+                <label>change the number of allowed max installment periods</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the number of allowed max installment periods"
+                    value="{{MAX_INSTALLMENT_PERIOD}}"
+                    name="MAX_INSTALLMENT_PERIOD"
+                />
+                <br />
+                <label>change the allowed min first payment</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the allowed min first payment"
+                    value="{{MIN_FIRST_PAYMENT}}"
+                    name="MIN_FIRST_PAYMENT"
+                />
+                <br />
+                <label>change the amount of benifit on every installment period</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the amount of benifit on every installment period"
+                    value="{{BENIFIT}}"
+                    name="BENIFIT"
+                />
+                <br />
+                <label>change the available period to pay in every installment
+                    period</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the available period to pay in every installment period"
+                    value="{{AVAILABLE_PAYMENT_PERIOD}}"
+                    name="AVAILABLE_PAYMENT_PERIOD"
+                />
+                <br />
+                <label>change the fine on the client for every late day</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the fine on the client for every late day"
+                    value="{{FINE}}"
+                    name="FINE"
+                />
+                <br />
+                <label>change the number of months of lateness before start
+                    legal actions</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the number of months of lateness before start legal actions"
+                    value="{{ACCEPTABLE_LATE_PERIOD}}"
+                    name="ACCEPTABLE_LATE_PERIOD"
+                />
+                <br />
+                <label>change the price of the lowest range cars</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the price of the lowest range cars"
+                    value="{{MIN_PRICE}}"
+                    name="MIN_PRICE"
+                />
+                <br />
+                <label>change the commision percintage of the lowest range cars</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the commision percintage of the lowest range cars"
+                    value="{{COMESSION_ONE}}"
+                    name="COMESSION_ONE"
+                />
+                <br />
+                <label>change the price of the medium range cars</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the price of the medium range cars"
+                    value="{{MAX_PRICE}}"
+                    name="MAX_PRICE"
+                />
+                <br />
+                <label>change the commisson percintage of the salesman of the
+                    meduim range cars</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the commisson percintage of the salesman of the meduim range cars"
+                    value="{{COMESION_TWO}}"
+                    name="COMESION_TWO"
+                />
+                <br />
+                <label>change the commission percintage of the salesman about
+                    the highest range</label>
+                <br />
+                <input
+                    type="text"
+                    placeholder="change the commission percintage of the salesman about the highest range cars "
+                    value="{{COMESSION_THREE}}"
+                    name="COMESSION_THREE"
+                />
+                <br />
+                <input type="submit" />
+            </form>
+        {{/each}}
+
+        <a href="/contractShow/view"><button>Show Contracts</button></a>
+        <button>Show late clients</button>
+        <button>show all salesman employees</button>
+
+    </body>
+</html>

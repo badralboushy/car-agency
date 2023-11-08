@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2262A89D-A128-909D-7DDF-A45B034B6290" name="Contract">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>6BBFA484-CC55-E19E-33BB-4BC3BA522835</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contract_ID" id="18D7E103-5DFF-C308-EE51-56F3F463D416">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>EFF5B5D4-E38A-FFBB-7195-51AA1ACB7EBC</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_method" id="7941E1C8-9087-438D-B638-851244112EA3">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>8F589A92-A3D8-70AD-839E-601A9E22F300</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_ID" id="1D0FD069-C60B-CD57-6D96-1218969CBD8A">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>67B0F830-5396-146B-5F39-408930E65B84</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92AD285B-D370-C993-2BAC-5CD14A8E6C34" referredColumn="C1CEA0E2-DCCF-645B-AA1E-1CC60E53B9F0"/>
+</associations>
+</Column>
+<Column name="client_ID" id="DBBB4E54-B6FC-9227-5F48-4A583D2F4B82">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 09:23:03 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76B25966-AB5F-AE0B-84F0-4AEA7F505D24" referredColumn="1FC8D91C-5741-E57D-DEBE-18F0B2A17E6C"/>
+</associations>
+</Column>
+<Column name="car_Car_ID" id="0C2F8538-2EB0-CACC-41C7-F31E3AA38420">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:20:35 UTC</createdTime>
+<generatorID>FE78BD0E-7E8F-D6F4-FD0D-8CD97947DE1D</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4DE65C7-3266-89B6-AE26-F60A66360E05" referredColumn="BB60DDE6-82D5-F214-CD2A-2FCF100FE8D6"/>
+</associations>
+</Column>
+<Column name="date" id="EAED9E76-EE22-622F-824A-48F87ACF3805">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-31 22:32:33 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8E47928-006D-5061-D61A-FD127D896910" name="Contract_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>72763E01-64B7-F815-6141-D54121E4D857</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18D7E103-5DFF-C308-EE51-56F3F463D416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97D24618-4FEF-40AB-A151-AD4AE38A933F" name="Contract_Employee_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>3A43FB60-70DE-595C-B7C3-E35CAA74EFCC</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D0FD069-C60B-CD57-6D96-1218969CBD8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B3B6276-18CF-680D-145A-730D828CE4D8" name="Contract_Client_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2021-05-16 22:47:04 UTC</createdTime>
+<generatorID>5BC2A553-0757-F3ED-ED4B-6CF01440E5D0</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBBB4E54-B6FC-9227-5F48-4A583D2F4B82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13485CB8-A0D9-A4B0-EB27-10E947AAA9A1" name="Contract_car_FK">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:20:35 UTC</createdTime>
+<generatorID>99DDEE35-6187-A02D-CEA8-0EB697AE1BA0</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C2F8538-2EB0-CACC-41C7-F31E3AA38420"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

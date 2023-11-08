@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23A60A07-D774-DF3A-953F-4168F3DF071E" name="permissions">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>1B103856-F9E8-1795-CCBF-EE7C776B2F95</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="change_commission" id="54474550-37A3-28F3-4033-730C492E7B1A">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>18753A6E-76CE-B062-718C-CBFB0BFCCE85</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="permission_id" id="63DCA5B5-218F-EB8B-BB5A-2D84D2FDC450">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>F90DB3E8-797E-9120-B234-0C1A23278F5C</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_number_of_sales" id="5AB9A48B-F34D-50F2-F46A-49EC4742E9A6">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>EF3681DF-C583-B81E-F7FA-9E579F21D7A6</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_max_installment_period" id="1CC0761F-E4ED-7811-7733-A55510BBFD9A">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>D139790B-2FBE-950C-372D-B85C0568D8F4</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_min_first_payment" id="30941237-42D8-B025-0C01-F8EE7E7B90D9">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>82CDA638-3B6A-AE95-0CAA-87E7DBB568F0</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_benifit" id="FC02D600-863E-5C5E-D48B-1A1372CDA5C2">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>6FF65518-601E-9D56-F646-4041D062CE44</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_fine" id="CA729F02-062E-2A5A-6377-F9B9954827A4">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>DB86E80F-3AF0-35CF-A077-FC87BDB9B252</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_available_payment_period" id="715A7390-9842-16A4-D2D9-45E760EDF5D3">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>F4E4C4D7-B2E2-94C1-5B24-57DBC181ACB2</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_acceptable_late_period" id="77DC27B0-E1E7-5ACD-7CA9-554879F37486">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>CD3760A7-C051-ED2E-ADDC-C79A309D7934</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_Active" id="32ADEAD3-3374-7D38-A975-F8BDFFDDFDAA">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>9129EFE7-7B4F-C0A9-43E7-62B3084C288C</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="open_account" id="3555B1C5-310F-BD1F-2758-09D9EFE015F4">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>4F97526E-7E87-2D66-E76C-895602700C0A</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ch_password" id="9BAE8708-8A7F-B8DE-F48F-48823DEB52FD">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>B0B1AB1F-83A1-A0A9-E995-C8643183897C</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="close_account" id="215A6C91-7C56-DDFA-ACC7-EEFBDC754442">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>954E4AE8-BECD-A564-3667-F4CF7FAEE978</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active" id="3AB5FB8F-9D55-6CFA-5829-74828A2044F3">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>B4AE778C-2325-CE17-70A3-F945DF541303</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="17816DAF-B299-6249-F92A-D072B7019341">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:34:50 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="B5A08021-D1CB-6422-67D0-8B6FFBD9DE05">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-31 22:33:03 UTC</createdTime>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7371C112-45AF-C137-955C-EADEAD3134CD" name="permissions_PK">
+<createdBy>Badr</createdBy>
+<createdTime>2021-05-17 10:13:13 UTC</createdTime>
+<generatorID>7F187A6D-41EA-118E-AFB5-E7EC9AD97B8D</generatorID>
+<ownerDesignName>caaaaaaaaaaaars</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63DCA5B5-218F-EB8B-BB5A-2D84D2FDC450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

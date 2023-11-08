@@ -1,0 +1,13 @@
+--first you need to connect to system .. put your password for the system account.
+
+
+connect system ; 
+
+CREATE USER samara_badr IDENTIFIED BY samara_badr;
+ALTER USER samara_badr QUOTA unlimited ON SYSTEM;
+GRANT CREATE SESSION, CONNECT, RESOURCE, DBA TO samara_badr;
+GRANT ALL PRIVILEGES TO samara_badr;
+
+-- NOW LET'S CONNECT TO THE NEW USER
+
+connect samara_badr ; 
